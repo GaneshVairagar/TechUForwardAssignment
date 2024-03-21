@@ -1,0 +1,35 @@
+package com.spring.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.spring.model.RegistrationEntity;
+import com.spring.repo.RegistrationRepo;
+
+
+
+@Service
+public class RegistrationService {
+	
+	@Autowired
+	RegistrationRepo repo;
+
+	public List<RegistrationEntity> getAllFormData() {
+		System.out.println("Service fetching data");
+		return null;
+	}
+
+	public RegistrationEntity saveRegister(RegistrationEntity cm) {
+		System.out.println("Save Register");
+		return repo.save(cm);
+	}
+
+	
+
+	
+	
+	
+
+}

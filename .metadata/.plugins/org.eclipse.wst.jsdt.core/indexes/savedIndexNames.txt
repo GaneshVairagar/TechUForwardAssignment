@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+E:\seed Infotech\10 React JS\techuforward-Back\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+157354168.index
+1697208935.index
+3107880498.index
+3098207844.index
+284374781.index
